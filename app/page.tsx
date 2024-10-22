@@ -17,7 +17,7 @@ export default function page() {
 
     <Image src={"/bg-bot.png"} alt={'bg-bot'} width={500} height={500} className='w-screen md:w-[80vw]  absolute bottom-0 md:left-[12%]'/>
 
-<div className='z-20 p-1 flex justify-center items-center md:-mt-10 '>
+<div className='z-20 p-1 flex justify-center items-center -mt-28 md:-mt-10 '>
     <Link href={"/chat-ai"} className='z-20'><button  className=' z-20 py-2 px-4 text-2xl font-bold rounded-3xl bg-gradient-to-r from-[#fc53f3] to-[#5c24fe] hover:border-[2px] hover:border-blue-700 '>GET STARTED</button></Link>
 </div>
     
